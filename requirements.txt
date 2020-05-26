@@ -15,7 +15,7 @@ django-widgets-improved==1.5.0
 djangorestframework==3.11.0
 et-xmlfile==1.0.1
 filelock==3.0.12
-gunicorn==20.0.4
+gunicorn
 jdcal==1.4.1
 numpy==1.18.4
 one==0.2.1
