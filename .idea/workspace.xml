@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c7bb0d6-4980-4119-bb50-a1d76cdee425" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hato_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hato_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hato_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hato_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/data/hato_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/hato_data.csv" afterDir="false" />
-    </list>
+    <list default="true" id="4c7bb0d6-4980-4119-bb50-a1d76cdee425" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hato_app/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
@@ -73,6 +69,24 @@
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -141,27 +155,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hato_app/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysite/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -177,8 +170,8 @@
       <find>his</find>
       <find>animal</find>
       <find>w</find>
-      <find>animalinfo</find>
       <find>submit</find>
+      <find>animalinfo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -244,12 +237,6 @@
               <item name="hato" type="b2602c69:ProjectViewProjectNode" />
               <item name="hato" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hato" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hato" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hato" type="b2602c69:ProjectViewProjectNode" />
@@ -333,12 +320,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590385900775</updated>
-      <workItem from="1590385906817" duration="34207000" />
+      <workItem from="1590385906817" duration="34261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34207000" />
+    <option name="totallyTimeSpent" value="34261000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -585,13 +565,6 @@
           <folding>
             <element signature="e#222#231#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -678,6 +651,20 @@
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
