@@ -19,4 +19,4 @@ class AnimalInfo(models.Model):
     animal_wiki = models.TextField(default='') # おすすめ鳩紹介サイト
 
     def __str__(self):
-        return '%d, %s, %s, %s' % (self.animal_id, self.animal_name, self.animal_title, self.animal_disc, self.animal_url, self.animal_wiki)
+        return '%d, %s, %s, %s, %s, %s' % (self.animal_id, self.animal_name, self.animal_title, self.animal_disc, self.animal_url, self.animal_wiki)

@@ -24,8 +24,8 @@ if not animalsinfo:
         data = csv.reader(f)
         data = [row for row in data]
     for i, _data in enumerate(data[1:]):
-        ani_name, ani_title, ani_disc = _data
-        aniinfo = AnimalInfo(animal_id=i, animal_name=ani_name, animal_title=ani_title, animal_disc=ani_disc)
+        ani_name, ani_title, ani_disc, ani_url, ani_wiki = _data
+        aniinfo = AnimalInfo(animal_id=i, animal_name=ani_name, animal_title=ani_title, animal_disc=ani_disc, animal_url=ani_url , animal_wiki=ani_wiki)
         aniinfo.save()
 
 
