@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="row">
+  <div class="col s10">
+    <h4>アニマル図鑑一覧</h4>
+  </div>
+  <div class="col s2">
+    <a href="{% url 'classify' %}"><button class="btn orange lighten-3" type="button" style="margin-top: 10%;">Go to Upload</button></a>
+  </div>
+</div>
+
+{% if historys %}
+  <div class="row">
+    <div class="carousel col s12">
+      {% for history in historys %}
+        {% for info in history %}
+          <a class="carousel-item" href="#{{info.animal_id}}" style="width:350px;"><img src="static/images/animal_{{info.animal_id}}.png" style="width:350px;"></a>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="row">
+    <table>
+      {% for history in historys %}
+      <tr>
+        {% for info in history %}
+          <td id="{{info.animal_id}}">{{info.animal_id}}</td>
+          <td><img src="static/images/animal_{{info.animal_id}}.png"></td>
+          <td width="100px">{{info.animal_name}}</td>
+          <td width="240px">{{info.animal_title}}</td>
+          <td>{{info.animal_disc}}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+
+{% else %}
+  <h1>履歴がありません。</h1>
+{% endif %}
+
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript">
+  M.AutoInit();
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
+  });
+</script>
+{% endblock %}
