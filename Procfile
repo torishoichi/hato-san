@@ -1,1 +1,1 @@
-web: gunicorn mysite.w
+web: gunicorn mysite
