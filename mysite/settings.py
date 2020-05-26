@@ -116,9 +116,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-# Activate Django-Heroku.
-import django_heroku
-django_heroku.settings(locals())
+
 
 
 # Static files (CSS, JavaScript, Images)
@@ -133,5 +131,9 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 LOGIN_REDIRECT_URL = '/'
+
+# Activate Django-Heroku.
+import django_heroku
+django_heroku.settings(locals())
 
 
