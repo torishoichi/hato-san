@@ -25,7 +25,7 @@ SECRET_KEY = 'w=&_o^d_u=b5i#d48^ybq*s38n%^u4x5-=!a1ml*n$=x_*&-to'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -134,5 +134,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 LOGIN_REDIRECT_URL = '/'
 
-INTERNAL_IPS = ('127.0.0.1',)
 
