@@ -1,0 +1,11 @@
+[
+  {
+    "model": "Item",
+    "pk": 1,
+    "fields": {
+      "id": "\u5317\u6d77\u9053",
+      "item_name": "\u672d\u5e4c\u5e02",
+      "price": "teteete"
+
+    }
+    ]
