@@ -85,8 +85,8 @@ def classify(request):
             user_info.save()
 
         return render(request, 'classify.html',
-                      {'uploaded_file_url': uploaded_file_url, 'animal_info': animal_info, 'proba': proba, 'uploaded_file_url':uploaded_file_url})
-
+                {'uploaded_file_url': uploaded_file_url, 'animal_info': animal_info, 'proba': proba})
+    return render(request, 'classify.html', {})
 
 @login_required
 def history(request):
